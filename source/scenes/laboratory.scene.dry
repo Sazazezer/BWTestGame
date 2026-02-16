@@ -3,4 +3,12 @@ new-page: true
 tags: ship
 subtitle: The spider's domain. Here webs are weaved. Small webs.
 
+-@press_button: Press Suspicious button
+
+@press_button
+view-if: found_secret_lab != "seen"
+on-arrival: found_secret_lab = "seen"
+
+A passageway opens on the far wall. Ah, it seems the spider is acting true to form. When was this carved, I wonder?
+
 - #ship
