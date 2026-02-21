@@ -5,9 +5,18 @@ subtitle: Everyone waits for your command
 
 You sit on your throne. It will do for now.
 
-Your exposure level is [+ exposure +]
-
-Your energon levels is [+ energon : qenergon +]
-
 - @cr_chamber : Go into the CR Chamber
 - #ship
+
+@cr_chamber
+new-page: false
+choose-if: energon < 10
+unavailable-subtitle: You do not need to recharge.
+on-departure: energon = 10
+go-to: @end-activity
+
+You recuperate in the CR Chamber. Not once do you stop paying attention. Many would take advantage of respite.
+
+@end-activity
+
+- @central_command : Continue...
