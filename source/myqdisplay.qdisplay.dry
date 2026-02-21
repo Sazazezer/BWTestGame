@@ -1,0 +1,7 @@
+# qenergon
+
+(-1..0) : Stasis Lock Activating
+(1..2) : Stasis Lock Imminent
+(3..4) : Warning: Recharge Recommended
+(5..9) : All Systems Fine
+(10..11) : Fully Charged
