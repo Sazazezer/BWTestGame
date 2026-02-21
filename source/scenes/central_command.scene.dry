@@ -11,7 +11,6 @@ Your energon level is [+ energon +]
 - @cr_chamber : Go into the CR Chamber
 - #ship
 
-
 @cr_chamber
 new-page: false
 choose-if: energon < 10
@@ -20,7 +19,6 @@ on-departure: energon = 10
 go-to: @end_activity
 
 You recuperate in the CR Chamber. Not once do you stop paying attention. Many would take advantage of respite.
-
 
 @end_activity
 - @central_command : Continue...
