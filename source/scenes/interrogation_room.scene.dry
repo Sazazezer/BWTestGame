@@ -4,9 +4,7 @@ tags: ship
 subtitle: Certainly not a room for torture.
 
 - #ship
-
--@ask_secret_room: Ask about the Secret Room
-
+- @ask_secret_room: Ask about the Secret Room
 
 @ask_secret_room
 view-if: found_secret_lab != "seen"
