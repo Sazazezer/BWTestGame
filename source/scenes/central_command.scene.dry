@@ -3,6 +3,8 @@ new-page: true
 tags: ship
 subtitle: Everyone waits for your command
 
+@central_command
+
 You sit on your throne. It will do for now.
 
 Your exposure level is [+ exposure +]
