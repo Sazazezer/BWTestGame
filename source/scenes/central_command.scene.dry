@@ -12,7 +12,6 @@ Your energon levels is [+ energon : qenergon +]
 - @cr_chamber : Go into the CR Chamber
 - #ship
 
-
 @cr_chamber
 new-page: false
 choose-if: energon < 10
