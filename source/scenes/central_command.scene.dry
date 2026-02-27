@@ -5,7 +5,7 @@ subtitle: Everyone waits for your command
 
 You sit on your throne. It will do for now.
 
-Your energon levels is [+ energon : qenergon +]
+Your energon levels is [+ energon : energon +]
 
 - @cr_chamber : Go into the CR Chamber
 - #ship
