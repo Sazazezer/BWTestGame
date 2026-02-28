@@ -6,10 +6,18 @@ subtitle: Everyone waits for your command
 You sit on your throne. It will do for now.
 
 Your energon levels is [+ energon : energon +]
+Your energon radiation levels are [+ radiation : radiation +]
 
 - @cr_chamber : Go into the CR Chamber
+- @opportunity
 - #ship
 
+@opportunity
+title: Opportunities
+card-image: img/Vorwaerts_nr_1.png
+is-deck: true
+
+- #opportunity
 
 @cr_chamber
 new-page: false

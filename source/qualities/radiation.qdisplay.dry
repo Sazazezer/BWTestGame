@@ -1,0 +1,7 @@
+# energon radiation
+
+(-1..0) : No Energon Radiation detected
+(1..2) : Energon Radiation Levels rising
+(3..4) : Warning: Energon Radiation Levels reaching critical. Suggest transform to Beast Mode
+(5..9) : Radiation Levels reaching critical. Transform to Beast Mode to prevent Stasis Lock
+(10..11) : Stasis Lock Activating
